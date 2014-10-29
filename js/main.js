@@ -118,18 +118,17 @@ $(".getPic").mouseenter(function() {
 
 	// if YES, display next question
 	$(".yes-6").click(function() {
-		$(".notyetposed-6").show("slow", function() {
+		$(".options-air-plants").show("slow", function() {
 			// animation complete
 			$(".notyetposed-6").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-5").addClass("answered");
-			$(".notyetposed-5").slideUp(600);
 		});
 	});
 
 	// if NO, drop down relevant plant list
 	$(".no-6").click(function() {
-		$(".options-air-plants").show("slow", function() {
+		$(".notyetposed-6").show("slow", function() {
 			// animation complete
 			$(".options-air-plants").css("visibility", "visible");
 			// change look of question that's been answered
@@ -297,9 +296,9 @@ $(".getPic").mouseenter(function() {
 
 	// if NO, display next question
 	$(".no-14").click(function() {
-		$(".notyetposed-14").show("slow", function() {
+		$(".notyetposed-15a").show("slow", function() {
 			// animation complete
-			$(".notyetposed-14").css("visibility", "visible");
+			$(".notyetposed-15a").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-13").addClass("answered");
 			$(".notyetposed-13").slideUp(600);
