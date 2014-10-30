@@ -23,6 +23,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-1").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-0").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-0").slideUp(600);
 		});
 	});
@@ -44,6 +45,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-2").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-1").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-1").slideUp(600);
 		});
 	});
@@ -68,6 +70,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-3").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-2").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-2").slideUp(600);
 
 			console.log("noyetposed-3 showed");
@@ -91,6 +94,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-4").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-3").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-3").slideUp(600);
 		});
 	});
@@ -112,6 +116,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-5").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-4").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-4").slideUp(600);
 		});
 	});
@@ -133,6 +138,7 @@ $(".getPic").mouseenter(function() {
 			$(".options-air-plants").css("visibility", "visible");
 			// change look of question that's been answered
 			$(".notyetposed-5").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-5").slideUp(600);
 		});
 	});
@@ -154,6 +160,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-7").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-6").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-6").slideUp(600);
 		});
 	});
@@ -175,6 +182,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-8").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-7").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-7").slideUp(600);
 		});
 	});
@@ -196,6 +204,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-9").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-8").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-8").slideUp(600);
 		});
 	});
@@ -217,6 +226,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-10").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-9").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-9").slideUp(600);
 		});
 	});
@@ -238,6 +248,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-11").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-10").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-10").slideUp(600);
 		});
 	});
@@ -259,6 +270,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-12").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-11").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-11").slideUp(600);
 		});
 	});
@@ -280,6 +292,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-13").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-12").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-12").slideUp(600);
 		});
 	});
@@ -301,6 +314,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-15a").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-13").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-13").slideUp(600);
 		});
 	});
@@ -322,6 +336,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-15b").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-14").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-14").slideUp(600);
 		});
 	});
@@ -343,6 +358,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-17").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-15a").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-15a").slideUp(600);
 		});
 	});
@@ -393,6 +409,7 @@ $(".getPic").mouseenter(function() {
 			$(".notyetposed-20").css("visibility", "visible");
 			// change look of previous question
 			$(".notyetposed-19").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-19").slideUp(600);
 		});
 	});
@@ -414,6 +431,7 @@ $(".getPic").mouseenter(function() {
 			$(".options-bushy-plants").css("visibility", "visible");
 			// change look of question that's been answered
 			$(".notyetposed-20").addClass("answered");
+			$('#greenHouse').attr('src', "images/generic.jpg")
 			$(".notyetposed-20").slideUp(600);
 		});
 	});

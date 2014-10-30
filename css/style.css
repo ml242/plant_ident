@@ -6,74 +6,74 @@ FEWD @GA in NYC
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 .alignright {
-	float: right; 
-	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  float: right; 
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
 
 .alignleft {
-	float: left; 
-	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  float: left; 
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
 body {
-     color: #000000;
-     font-size: 22px;
-     line-height: 1.4;
-     font-family: "Enriqueta", serif;
-     background-image: url("../images/bodybackground.jpg");
-     margin: 0 auto;
+  color: #000000;
+  font-size: 22px;
+  line-height: 1.4;
+  font-family: "Enriqueta", serif;
+  background-image: url("../images/bodybackground.jpg");
+  margin: 0 auto;
 }
 
 header {
-     background: #F1FAFA;
+  background: #F1FAFA;
+  margin-bottom: 40px;
 }
 
-h1, h2, h3 {
-     font-family: "Cuprum", sans-serif;
+h1, h2, h3, h4 {
+  font-family: "Cuprum", sans-serif;
 }
 
 h1 {
-    font-size: 54px;
-    margin: 20px 0px 0px 20px;
-    color: #000000;
+  font-size: 54px;
+  margin: 20px 0px 0px 20px;
+  color: #000000;
 }
 
 h2 {
-    font-size: 28px;
-    color: #575742;
-    width: 80%;
-    margin: 0px 0px 0px 40px;
-}
-  
-h3 {
-    font-size: 28px;
-    padding-top: 10px;
-    padding-left: 10px;
+  font-size: 28px;
+  color: #575742;
+  width: 80%;
+  margin: 0px 0px 0px 40px;
 }
 
-main {
-     width: 80%;
-     margin: 0 auto;
+h3 {
+  font-size: 28px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+h4 {
+  font-size: 18px;
 }
 
 #greenHouse {
@@ -84,37 +84,37 @@ main {
   border-style: outset;
 }
 
-ul {
-    padding-left: 20px;
-    padding-right: 200px;
-}
+/*ul {
+  padding-left: 20px;
+  padding-right: 200px;
+}*/
 
 li {
-     font-size: 18px;
-     display: inline-block;
-     white-space: nowrap;
-     text-align: center;
-     background-color: #FF69B4;
-     padding: 5px 9px;
-     margin: 5px;
-     border-radius: 10px;
+  font-size: 18px;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #FF69B4;
+  padding: 5px 9px;
+  margin: 5px;
+  border-radius: 10px;
 }
 
 /*a:link {
-    text-decoration: none;
-    color: #000000;
+text-decoration: none;
+color: #000000;
 }
 
 a:hover {
-    color: #6F4242;
+color: #6F4242;
 }
 
 a:active {
-    color: #8C1717;
+color: #8C1717;
 }
 
 a:visited {
-    color: #000000;
+color: #000000;
 }*/
 
 #displayImg {
@@ -129,23 +129,24 @@ a:visited {
 .question {
   color: #FFFFFF;
   padding: 1.250em;
-  width: 18.750em;
   background-image: url("../images/questionbackdrop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 12px;
   border: solid 2px #118215;
   border-style: outset;
-  margin: 40px 0 0 0;
+  margin-right: 20px;
   clear: both;
 }
 
 .bonsaiYes {
-    display: inline-block;
-    white-space: nowrap;
-    text-align: center;
-    background-color: #FF69B4;
-    padding: 5px 7px;
-    margin: 5px;
-    border-radius: 10px;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #FF69B4;
+  padding: 5px 7px;
+  margin: 5px;
+  border-radius: 10px;
 }
 
 .bonsaiNo {
@@ -167,7 +168,10 @@ a:visited {
 }
 
 .answered {
-  opacity: 0.5;
+  /* Should be background image opacity or something else */
+  /*opacity: 0.5;*/
+  border-radius: 12px;
+  border: solid 2px yellow;
 }
 
 .yes, .no {
@@ -176,15 +180,14 @@ a:visited {
   font-weight: bold;
   color: yellow;
   text-align: center;
-  width: 50px;
   padding: 10px;
   background-image: url("../images/buttonbackground2.jpg");
   margin: 10px;
   border-radius: 30px;
   border: 1px dotted #73725D;
   border-style: outset;
-  float: left;
   cursor: pointer;
+  display: inline-block;
 }
 
 .yes {
@@ -307,19 +310,19 @@ a:visited {
 }
 
 footer {
-     clear: both;
-     float: left;
-     background-color: #F1FAFA;
-     height: 60px;
-     width: 100%;
-     margin: 500px 0 0 0;
+  clear: both;
+  float: left;
+  background-color: #F1FAFA;
+  height: 60px;
+  width: 100%;
+  margin: 500px 0 0 0;
 }
 
 .footerText {
-    margin: 20px 0 0 0;
-    color: #575742;
-    font-family: "Cuprum", sans-serif;
-    font-size: 14px;
-    text-align: center;
+  margin: 20px 0 0 0;
+  color: #575742;
+  font-family: "Cuprum", sans-serif;
+  font-size: 14px;
+  text-align: center;
 }
 
