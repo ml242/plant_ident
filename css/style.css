@@ -1,6 +1,6 @@
 /* 
 Project Name: Plant Identifier
-Author: Megan Hustad
+Author: Created by Megan Hustad, edited by Matt Lucas
 FEWD @GA in NYC
 */
 
@@ -77,8 +77,8 @@ main {
 }
 
 #greenHouse {
-  position: absolute;
-  margin: 360px 40px 0 680px;
+  /*position: absolute;*/
+  /*margin: 360px 40px 0 680px;*/
   border: solid 2px #575742;
   border-radius: 12px;
   border-style: outset;
