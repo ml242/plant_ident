@@ -1,6 +1,0 @@
-Punchlist for plant app.
-
-hide the previous question entirely
-
-add bootstrap
-
