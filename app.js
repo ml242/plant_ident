@@ -57,6 +57,10 @@ app.use(function(err, req, res, next) {
 });
 
 
+var server = app.listen(process.env.PORT || 8888, function() {
+    console.log("Application listening on %d", server.address().port);
+});
+
 module.exports = app;
 
 console.log('working');
