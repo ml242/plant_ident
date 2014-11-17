@@ -55,7 +55,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 54px;
-  margin: 20px 0px 0px 20px;
+  margin: 0px 0px 0px 20px;
   color: #000000;
 }
 
@@ -323,5 +323,20 @@ footer {
   font-family: "Cuprum", sans-serif;
   font-size: 14px;
   text-align: center;
+}
+
+@media only screen and (max-width: 421px){
+  header h2 {
+    display: none;
+  }
+  .question {
+    margin-bottom: 20px;
+  }
+  #greenHouse {
+    margin-bottom: 20px;
+  }
+  header {
+    margin-bottom: 20px;
+  }
 }
 
